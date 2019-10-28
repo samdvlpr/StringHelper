@@ -11,15 +11,15 @@ Repeats a specified string for a specified amount of times.
   
 # Contribute
 
-Come conribute would love to hear you ideas [Contribute](https://github.com/SamB1990/StringHelperStringHelperStringHelper/blob/master/CONTRIBUTING.md)
+Come conribute would love to hear you ideas [Contribute](https://github.com/SamB1990/StringHelper/blob/master/CONTRIBUTING.md)
 
 # Issues
 
-Got an issue here are my [guidelines](https://github.com/SamB1990/StringHelperStringHelperStringHelper/blob/master/CONTRIBUTING.md#issues) for reporting it.
+Got an issue here are my [guidelines](https://github.com/SamB1990/StringHelper/blob/master/CONTRIBUTING.md#issues) for reporting it.
 
 # License
 
-This work is licensed under a [MIT License](https://github.com/SamB1990/StringHelperStringHelper/blob/master/LICENSE)
+This work is licensed under a [MIT License](https://github.com/SamB1990/StringHelper/blob/master/LICENSE)
 
 # Code of Conduct
 
