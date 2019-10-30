@@ -186,7 +186,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj",
-      "projectName": "StringHelper",
+      "projectName": "StringHelper.Extension",
       "projectPath": "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj",
       "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\obj\\",

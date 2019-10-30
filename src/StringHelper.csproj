@@ -10,6 +10,17 @@
     <RepositoryType>github</RepositoryType>
     <NeutralLanguage>en-GB</NeutralLanguage>
     <Description>.Net Helper Extension for strings</Description>
+    <PackageId>StringHelper.Extension</PackageId>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageTags>string wrap repeat extensions</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

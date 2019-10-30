@@ -1,8 +1,8 @@
 C:\Users\sam\source\repos\StringHelper\src\bin\Release\netstandard2.0\StringHelper.deps.json
 C:\Users\sam\source\repos\StringHelper\src\bin\Release\netstandard2.0\StringHelper.dll
 C:\Users\sam\source\repos\StringHelper\src\bin\Release\netstandard2.0\StringHelper.pdb
-C:\Users\sam\source\repos\StringHelper\src\obj\Release\netstandard2.0\StringHelper.csprojAssemblyReference.cache
 C:\Users\sam\source\repos\StringHelper\src\obj\Release\netstandard2.0\StringHelper.AssemblyInfoInputs.cache
 C:\Users\sam\source\repos\StringHelper\src\obj\Release\netstandard2.0\StringHelper.AssemblyInfo.cs
 C:\Users\sam\source\repos\StringHelper\src\obj\Release\netstandard2.0\StringHelper.dll
 C:\Users\sam\source\repos\StringHelper\src\obj\Release\netstandard2.0\StringHelper.pdb
+C:\Users\sam\source\repos\StringHelper\src\obj\Release\netstandard2.0\StringHelper.csprojAssemblyReference.cache
