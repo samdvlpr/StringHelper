@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>StringHelper</id>
+    <version>1.0.0</version>
+    <authors>Sam Blundell</authors>
+    <owners>Sam Blundell</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.Net Helper Extension for strings</description>
+    <copyright>Copyright (c) 2019 Sam Blundell</copyright>
+    <repository type="github" url="https://github.com/SamB1990/StringHelper" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\sam\source\repos\StringHelper\src\bin\Debug\netstandard2.0\StringHelper.dll" target="lib\netstandard2.0\StringHelper.dll" />
+  </files>
+</package>

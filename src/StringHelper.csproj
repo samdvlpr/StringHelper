@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Sam Blundell</Authors>
+    <Company>Sam Blundell Software</Company>
+    <Copyright>Copyright (c) 2019 Sam Blundell</Copyright>
+    <RepositoryUrl>https://github.com/SamB1990/StringHelper</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <Description>.Net Helper Extension for strings</Description>
+  </PropertyGroup>
+
+</Project>
