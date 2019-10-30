@@ -13,7 +13,9 @@
     <PackageId>StringHelper.Extension</PackageId>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <PackageTags>string wrap repeat extensions</PackageTags>
+    <PackageTags>string wrap repeat extensions StringHelper</PackageTags>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
