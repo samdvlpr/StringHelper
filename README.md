@@ -8,6 +8,9 @@ The wrap method takes a string and wraps into an ienumerable of strings each str
 
 ### Repeat
 Repeats a specified string for a specified amount of times.
+
+### Random String
+Allows you to create a random string with certain formats at a given length.
   
 # Contribute
 
