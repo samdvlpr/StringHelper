@@ -13,9 +13,7 @@ namespace StringHelper.UnitTest
         public void TestWrap_OnTenCharWordWithWarpLengthFive_ReturnsTwoFiveCharStrings()
         {
             var results = "whizzbangs".Wrap(5);
-
-            //CollectionAssert.AreEqual(new [] { "whizz", "bangs" } , results.ToArray());
-
+            
             Assert.AreEqual(2, results.Count());
 
             Assert.AreEqual("whizz", results.ToArray()[0]);

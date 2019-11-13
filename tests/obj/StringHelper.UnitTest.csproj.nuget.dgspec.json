@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sam\\source\\repos\\StringHelper\\tests\\StringHelper.UnitTest.csproj": {}
+    "C:\\Users\\sam\\Source\\Repos\\StringHelper\\tests\\StringHelper.UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj": {
-      "version": "1.0.1",
+    "C:\\Users\\sam\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj": {
+      "version": "1.0.2",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj",
+        "projectUniqueName": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj",
         "projectName": "StringHelper.Extension",
-        "projectPath": "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj",
+        "projectPath": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj",
         "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\obj\\",
+        "outputPath": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\sam\\source\\repos\\StringHelper\\tests\\StringHelper.UnitTest.csproj": {
+    "C:\\Users\\sam\\Source\\Repos\\StringHelper\\tests\\StringHelper.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sam\\source\\repos\\StringHelper\\tests\\StringHelper.UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\tests\\StringHelper.UnitTest.csproj",
         "projectName": "StringHelper.UnitTest",
-        "projectPath": "C:\\Users\\sam\\source\\repos\\StringHelper\\tests\\StringHelper.UnitTest.csproj",
+        "projectPath": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\tests\\StringHelper.UnitTest.csproj",
         "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sam\\source\\repos\\StringHelper\\tests\\obj\\",
+        "outputPath": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -92,8 +92,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj": {
-                "projectPath": "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj"
+              "C:\\Users\\sam\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj": {
+                "projectPath": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj"
               }
             }
           }
