@@ -29,5 +29,27 @@ namespace System
             }
             return n;
         }
+
+
+        /// <summary>
+        /// Determines the common length of two strings from start to end until the first difference
+        /// </summary>
+        /// <param name="value1">First string</param>
+        /// <param name="value2">Second string</param>
+        /// <param name="stringComparison">determines the string comparision options</param>
+        /// <returns>The number of characters common from the start</returns>
+        public static int CountStartToDifference(this string value1, string value2, StringComparison? stringComparison = null)
+        {
+            // Performance analysis: https://neil.fraser.name/news/2007/10/09/
+            var n = Math.Min(value1.Length, value2.Length);
+            for (var i = 0; i < n; i++)
+            {
+                if ((stringComparison == null ? (value1[i] != value2[i]) : (!string.Equals(value1[i].ToString(), value2[i].ToString(), (StringComparison)stringComparison))))
+                {
+                    return i;
+                }
+            }
+            return n;
+        }
     }
 }
