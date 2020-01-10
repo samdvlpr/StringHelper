@@ -43,10 +43,12 @@ namespace System
         /// <returns>The strings of text minus the common text between the two removed from the start and end.</returns>
         public static Tuple<string, string> TrimToDifference(this string value1, string value2, StringComparison? stringComparison = null)
         {
+            if (value1 == value2) return new Tuple<string, string>("", "");
+            
             var countFromStart = value1.CountStartToDifference(value2, stringComparison);
             var countFromEnd = value1.CountEndToDifference(value2, stringComparison);
             var totalCount = (countFromEnd + countFromStart);
-
+            
             return new Tuple<string, string>(value1.Substring(countFromStart, value1.Length - totalCount), value2.Substring(countFromStart, value2.Length - totalCount));
         }
     }

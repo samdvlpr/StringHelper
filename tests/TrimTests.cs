@@ -34,6 +34,22 @@ namespace StringHelper.UnitTest
             Assert.AreEqual("hI different", item2);
         }
 
+        [TestMethod]
+        public void TrimEndToDifference_Same()
+        {
+            var (item1, item2) = strlower1.TrimEndToDifference(strlower1);
+            Assert.AreEqual("", item1);
+            Assert.AreEqual("", item2);
+        }
+
+        [TestMethod]
+        public void TrimEndToDifference_AllDifferent()
+        {
+            var (item1, item2) = "one".TrimEndToDifference("two");
+            Assert.AreEqual("one", item1);
+            Assert.AreEqual("two", item2);
+        }
+
 
         [TestMethod]
         public void TrimStartToDifference_DifferentCase()
@@ -59,6 +75,22 @@ namespace StringHelper.UnitTest
             Assert.AreEqual("different World", item2);
         }
 
+        [TestMethod]
+        public void TrimStartToDifference_Same()
+        {
+            var (item1, item2) = strlower1.TrimStartToDifference(strlower1);
+            Assert.AreEqual("", item1);
+            Assert.AreEqual("", item2);
+        }
+
+        [TestMethod]
+        public void TrimStartToDifference_AllDifferent()
+        {
+            var (item1, item2) = "one".TrimStartToDifference("two");
+            Assert.AreEqual("one", item1);
+            Assert.AreEqual("two", item2);
+        }
+
 
         [TestMethod]
         public void TrimToDifference_DifferentCase()
@@ -82,6 +114,22 @@ namespace StringHelper.UnitTest
             var (item1, item2) = strlower1.TrimToDifference(str2, StringComparison.InvariantCultureIgnoreCase);
             Assert.AreEqual("same", item1);
             Assert.AreEqual("different", item2);
+        }
+
+        [TestMethod]
+        public void TrimToDifference_Same()
+        {
+            var (item1, item2) = strlower1.TrimToDifference(strlower1);
+            Assert.AreEqual("", item1);
+            Assert.AreEqual("", item2);
+        }
+
+        [TestMethod]
+        public void TrimToDifference_AllDifferent()
+        {
+            var (item1, item2) = "one".TrimToDifference("two");
+            Assert.AreEqual("one", item1);
+            Assert.AreEqual("two", item2);
         }
     }
 }

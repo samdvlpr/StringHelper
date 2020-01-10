@@ -183,13 +183,13 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.3",
+    "version": "1.0.4",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj",
+      "projectUniqueName": "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj",
       "projectName": "StringHelper.Extension",
-      "projectPath": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj",
+      "projectPath": "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj",
       "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\src\\obj\\",
+      "outputPath": "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

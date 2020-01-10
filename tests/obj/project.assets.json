@@ -2030,7 +2030,7 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "StringHelper.Extension/1.0.3": {
+      "StringHelper.Extension/1.0.4": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
@@ -6802,7 +6802,7 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "StringHelper.Extension/1.0.3": {
+    "StringHelper.Extension/1.0.4": {
       "type": "project",
       "path": "../src/StringHelper.csproj",
       "msbuildProject": "../src/StringHelper.csproj"
@@ -6813,7 +6813,7 @@
       "MSTest.TestAdapter >= 1.4.0",
       "MSTest.TestFramework >= 1.4.0",
       "Microsoft.NET.Test.Sdk >= 16.2.0",
-      "StringHelper.Extension >= 1.0.3",
+      "StringHelper.Extension >= 1.0.4",
       "coverlet.collector >= 1.0.1"
     ]
   },
@@ -6825,11 +6825,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\tests\\StringHelper.UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\sam\\source\\repos\\StringHelper\\tests\\StringHelper.UnitTest.csproj",
       "projectName": "StringHelper.UnitTest",
-      "projectPath": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\tests\\StringHelper.UnitTest.csproj",
+      "projectPath": "C:\\Users\\sam\\source\\repos\\StringHelper\\tests\\StringHelper.UnitTest.csproj",
       "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\tests\\obj\\",
+      "outputPath": "C:\\Users\\sam\\source\\repos\\StringHelper\\tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6850,8 +6850,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\sam\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj": {
-              "projectPath": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj"
+            "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj": {
+              "projectPath": "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj"
             }
           }
         }
