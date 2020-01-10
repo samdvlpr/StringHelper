@@ -17,7 +17,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\sam\Source\Repos\StringHelper\src\bin\Debug\netstandard2.0\StringHelper.dll" target="lib\netstandard2.0\StringHelper.dll" />
-    <file src="C:\Users\sam\Source\Repos\StringHelper\LICENSE" target="LICENSE" />
+    <file src="C:\Users\sam\source\repos\StringHelper\src\bin\Debug\netstandard2.0\StringHelper.dll" target="lib\netstandard2.0\StringHelper.dll" />
+    <file src="C:\Users\sam\source\repos\StringHelper\LICENSE" target="LICENSE" />
   </files>
 </package>
