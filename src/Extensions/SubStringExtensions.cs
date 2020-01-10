@@ -7,7 +7,7 @@ namespace System
     public static class SubStringExtensions
     {
         /// <summary>
-        /// Retrieves a string of the common text of two strings from end to begin until the first difference
+        /// Retrieves a string of the common text of two strings from end to begin until the first difference.
         /// </summary>
         /// <param name="value1">First string</param>
         /// <param name="value2">Second string</param>
@@ -21,7 +21,7 @@ namespace System
         }
 
         /// <summary>
-        /// Retrieves a string of the common test of two strings from start to end until the first difference
+        /// Retrieves a string of the common text of two strings from start to end until the first difference
         /// </summary>
         /// <param name="value1">First string</param>
         /// <param name="value2">Second string</param>
