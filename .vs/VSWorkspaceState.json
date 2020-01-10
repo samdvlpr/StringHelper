@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\tests"
   ],
   "SelectedNode": "\\StringHelper.sln",
   "PreviewInSolutionExplorer": false
