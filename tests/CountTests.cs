@@ -7,8 +7,8 @@ namespace StringHelper.UnitTest
     public class CountTests
     {
         private string strlower1 = "hi same world";
-        private string str1 = "hi same World";
-        private string str2 = "hi different World";
+        private string str1 = "hI same World";
+        private string str2 = "hI different World";
 
         [TestMethod]
         public void CountEndToDifference_DifferentCase()
@@ -29,6 +29,28 @@ namespace StringHelper.UnitTest
         {
             var result = strlower1.CountEndToDifference(str2, StringComparison.InvariantCultureIgnoreCase);
             Assert.AreEqual(6, result);
+        }
+
+
+        [TestMethod]
+        public void CountStartToDifference_DifferentCase()
+        {
+            var result = strlower1.CountStartToDifference(str2);
+            Assert.AreEqual(1, result);
+        }
+
+        [TestMethod]
+        public void CountStartToDifference()
+        {
+            var result = str1.CountStartToDifference(str2);
+            Assert.AreEqual(3, result);
+        }
+
+        [TestMethod]
+        public void CountStartToDifference_IgnoreCase()
+        {
+            var result = strlower1.CountStartToDifference(str2, StringComparison.InvariantCultureIgnoreCase);
+            Assert.AreEqual(3, result);
         }
     }
 }
