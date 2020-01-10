@@ -11,7 +11,7 @@
           "MSTest.TestAdapter": "1.4.0",
           "MSTest.TestFramework": "1.4.0",
           "Microsoft.NET.Test.Sdk": "16.2.0",
-          "StringHelper.Extension": "1.0.1",
+          "StringHelper.Extension": "1.0.2",
           "coverlet.collector": "1.0.1"
         },
         "runtime": {
@@ -1325,7 +1325,7 @@
           }
         }
       },
-      "StringHelper.Extension/1.0.1": {
+      "StringHelper.Extension/1.0.2": {
         "runtime": {
           "StringHelper.dll": {}
         }
@@ -2073,7 +2073,7 @@
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
     },
-    "StringHelper.Extension/1.0.1": {
+    "StringHelper.Extension/1.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
