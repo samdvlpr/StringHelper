@@ -11,6 +11,27 @@ namespace StringHelper.UnitTest
         private string str2 = "hI different World";
 
         [TestMethod]
+        public void CountEndToDifference_LeftEmpty()
+        {
+            var result = "".CountEndToDifference("one");
+            Assert.AreEqual(0, result);
+        }
+
+        [TestMethod]
+        public void CountEndToDifference_RightEmpty()
+        {
+            var result = "one".CountEndToDifference("");
+            Assert.AreEqual(0, result);
+        }
+
+        [TestMethod]
+        public void CountEndToDifference_BothEmpty()
+        {
+            var result = "".CountEndToDifference("1");
+            Assert.AreEqual(0, result);
+        }
+
+        [TestMethod]
         public void CountEndToDifference_DifferentCase()
         {
             var result = strlower1.CountEndToDifference(str2);

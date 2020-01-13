@@ -45,11 +45,11 @@ namespace System
         {
             if (value1 == value2) return new Tuple<string, string>("", "");
             
-            var countFromStart = value1.CountStartToDifference(value2, stringComparison);
-            var countFromEnd = value1.CountEndToDifference(value2, stringComparison);
-            var totalCount = (countFromEnd + countFromStart);
-            
-            return new Tuple<string, string>(value1.Substring(countFromStart, value1.Length - totalCount), value2.Substring(countFromStart, value2.Length - totalCount));
+            var (Tvalue1, Tvalue2) = value1.TrimStartToDifference(value2, stringComparison);
+
+            var (Tvalue3, Tvalue4) = Tvalue1.TrimEndToDifference(Tvalue2, stringComparison);
+
+            return new Tuple<string, string>(Tvalue3, Tvalue4);
         }
     }
 }

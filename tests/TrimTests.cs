@@ -131,5 +131,29 @@ namespace StringHelper.UnitTest
             Assert.AreEqual("one", item1);
             Assert.AreEqual("two", item2);
         }
+
+        [TestMethod]
+        public void TrimToDifference_LeftEmpty()
+        {
+            var (item1, item2) = "".TrimToDifference("one");
+            Assert.AreEqual("", item1);
+            Assert.AreEqual("one", item2);
+        }
+
+        [TestMethod]
+        public void TrimToDifference_RightEmpty()
+        {
+            var (item1, item2) = "one".TrimToDifference("");
+            Assert.AreEqual("one", item1);
+            Assert.AreEqual("", item2);
+        }
+
+        [TestMethod]
+        public void TrimToDifference_BothEmpty()
+        {
+            var (item1, item2) = "".TrimToDifference("");
+            Assert.AreEqual("", item1);
+            Assert.AreEqual("", item2);
+        }
     }
 }
