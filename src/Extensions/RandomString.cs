@@ -50,10 +50,9 @@ namespace System
         private static void randomize(this RandomString str)
         {
             str._buff = new char[str._size];
-            var random = new Random();
             for (var iterate = 0; iterate < str._size; iterate++)
             {
-                var i = random.Next(1, 100);
+                var i = str.RandomNumber(1, 100);
                 str.rngChar((i <= 25 ? AlphanumericFormat.Numeric : i <= 55 ? AlphanumericFormat.Uppercase : i <= 85 ? AlphanumericFormat.Lowercase : AlphanumericFormat.NonAlphanumeric), iterate);
             }
             str.ensureAllChars();
@@ -78,14 +77,14 @@ namespace System
             switch (format)
             {
                 case AlphanumericFormat.Numeric:
-                    byteBuffer = new Random().Next(0, 9);
+                    byteBuffer = str.RandomNumber(0, 9);
                     break;
                 case AlphanumericFormat.Lowercase:
                 case AlphanumericFormat.Uppercase:
-                    byteBuffer = new Random().Next(0, 26);
+                    byteBuffer = str.RandomNumber(0, 26);
                     break;
                 default:
-                    byteBuffer = new Random().Next(0, str._specialChars.Length);
+                    byteBuffer = str.RandomNumber(0, str._specialChars.Length);
                     break;
             }
 
@@ -105,10 +104,9 @@ namespace System
 
         private static int getUnusedPosition(this RandomString str, AlphanumericFormat format)
         {
-            var random = new Random();
             do
             {
-                var i = random.Next(0, str._size);
+                var i = str.RandomNumber(0, str._size);
                 if (str.checkPositions(i))
                 {
                     return i;

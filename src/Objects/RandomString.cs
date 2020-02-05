@@ -1,11 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace System
 {
     public class RandomString
     {
+        private RNGCryptoServiceProvider _rng = new RNGCryptoServiceProvider();
+
+        internal int RandomNumber(int min, int max)
+        {
+            byte[] _buffer = new byte[4];
+            _rng.GetBytes(_buffer);
+            int rand;
+            do
+            {
+                rand = BitConverter.ToInt32(_buffer, 0) & Int32.MaxValue;
+            } while (rand >= max * (Int32.MaxValue / max));
+            return rand % max;
+        }
+
         public RandomString(int size = 20, AlphanumericFormat[] formats = null)
         {
             _size = size;

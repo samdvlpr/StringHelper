@@ -6,3 +6,11 @@ C:\Users\sam\source\repos\StringHelper\src\obj\Release\netstandard2.0\StringHelp
 C:\Users\sam\source\repos\StringHelper\src\obj\Release\netstandard2.0\StringHelper.dll
 C:\Users\sam\source\repos\StringHelper\src\obj\Release\netstandard2.0\StringHelper.pdb
 C:\Users\sam\source\repos\StringHelper\src\obj\Release\netstandard2.0\StringHelper.csprojAssemblyReference.cache
+C:\Users\simon.layton\Source\Repos\StringHelper\src\bin\Release\netstandard2.0\StringHelper.deps.json
+C:\Users\simon.layton\Source\Repos\StringHelper\src\bin\Release\netstandard2.0\StringHelper.dll
+C:\Users\simon.layton\Source\Repos\StringHelper\src\bin\Release\netstandard2.0\StringHelper.pdb
+C:\Users\simon.layton\Source\Repos\StringHelper\src\obj\Release\netstandard2.0\StringHelper.csprojAssemblyReference.cache
+C:\Users\simon.layton\Source\Repos\StringHelper\src\obj\Release\netstandard2.0\StringHelper.AssemblyInfoInputs.cache
+C:\Users\simon.layton\Source\Repos\StringHelper\src\obj\Release\netstandard2.0\StringHelper.AssemblyInfo.cs
+C:\Users\simon.layton\Source\Repos\StringHelper\src\obj\Release\netstandard2.0\StringHelper.dll
+C:\Users\simon.layton\Source\Repos\StringHelper\src\obj\Release\netstandard2.0\StringHelper.pdb

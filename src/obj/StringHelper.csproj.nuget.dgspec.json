@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj": {}
+    "C:\\Users\\simon.layton\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj": {
+    "C:\\Users\\simon.layton\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj": {
       "version": "1.0.5",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj",
+        "projectUniqueName": "C:\\Users\\simon.layton\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj",
         "projectName": "StringHelper.Extension",
-        "projectPath": "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\StringHelper.csproj",
-        "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sam\\source\\repos\\StringHelper\\src\\obj\\",
+        "projectPath": "C:\\Users\\simon.layton\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj",
+        "packagesPath": "C:\\Users\\simon.layton\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\simon.layton\\Source\\Repos\\StringHelper\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\simon.layton\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,6 +25,7 @@
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.telerik.com/nuget": {}
         },
@@ -60,7 +60,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
