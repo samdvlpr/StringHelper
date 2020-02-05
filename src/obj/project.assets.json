@@ -178,23 +178,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\simon.layton\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\sam\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.5",
+    "version": "1.0.6",
     "restore": {
-      "projectUniqueName": "C:\\Users\\simon.layton\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj",
+      "projectUniqueName": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj",
       "projectName": "StringHelper.Extension",
-      "projectPath": "C:\\Users\\simon.layton\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj",
-      "packagesPath": "C:\\Users\\simon.layton\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\simon.layton\\Source\\Repos\\StringHelper\\src\\obj\\",
+      "projectPath": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\src\\StringHelper.csproj",
+      "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sam\\Source\\Repos\\StringHelper\\src\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\simon.layton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -202,7 +204,6 @@
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nuget.telerik.com/nuget": {}
       },
