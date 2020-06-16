@@ -1,6 +1,6 @@
 # What is StringHelper
 
-The string helper was born to help me keep a library of useful extensions to strings. I am constantly writing methods across different projects that i again replicate when i move on to the next one so i thought i should create a library.
+The string helper was born to help me keep a library of useful extensions to strings. I am constantly writing methods across different projects that i again replicate when i move on to the next one so i thought i should create a library. 
 
 ## Current Functionality
 ### Wrap
